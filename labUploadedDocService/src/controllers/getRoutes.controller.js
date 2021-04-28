@@ -1,0 +1,105 @@
+const logger = require("../middlewares/logger/logger");
+const db = require("../config/db.config");
+const lab_uploaded_docs = db.lab_uploaded_docs;
+const lab_visits = db.lab_visits;
+
+//get report by patient id
+const getDocumentsByPatientId = async (req, res) => {
+  let response = new Array();
+  await lab_visits
+    .findAll({
+      where: {
+        patient_id: req.query.userId,
+      },
+    })
+    .then((visits) => {
+      let responseLength = Object.keys(visits).length;
+      visits.forEach((visit) => {
+        lab_uploaded_docs
+          .findAll({
+            where: {
+              visit_id: visit.id,
+            },
+          })
+          .then((document) => {
+            response.push(document);
+          });
+      });
+      let checkDocs = () => {
+        if (response.length === responseLength) {
+          clearInterval(check);
+          res.send(response);
+        }
+      };
+      let check = setInterval(checkDocs, 10);
+    });
+};
+
+const getDocumentsByHcpId = async (req, res) => {
+  let response = new Array();
+  await lab_visits
+    .findAll({
+      where: {
+        hcp_id: req.query.hcpId,
+      },
+    })
+    .then((visits) => {
+      let responseLength = Object.keys(visits).length;
+      visits.forEach((visit) => {
+        lab_uploaded_docs
+          .findAll({
+            where: {
+              visit_id: visit.id,
+            },
+          })
+          .then((document) => {
+            response.push(document);
+          });
+      });
+      let checkDocs = () => {
+        if (response.length === responseLength) {
+          clearInterval(check);
+          res.send(response);
+        }
+      };
+      let check = setInterval(checkDocs, 10);
+    });
+};
+
+const getDocumentsByPatientIdAndHcpId = async (req, res) => {
+  let response = new Array();
+  await lab_visits
+    .findAll({
+      where: {
+        patient_id: req.query.userId,
+        hcp_id: req.query.hcpId,
+      },
+    })
+    .then((visits) => {
+      let responseLength = Object.keys(visits).length;
+      visits.forEach((visit) => {
+        lab_uploaded_docs
+          .findAll({
+            where: {
+              visit_id: visit.id,
+            },
+          })
+          .then((document) => {
+            response.push(document);
+          });
+      });
+      let checkDocs = () => {
+        if (response.length === responseLength) {
+          clearInterval(check);
+          res.send(response);
+        }
+      };
+      let check = setInterval(checkDocs, 10);
+    });
+};
+
+module.exports = {
+  getDocumentsByPatientId,
+  getDocumentsByHcpId,
+  getDocumentsByPatientIdAndHcpId,
+};

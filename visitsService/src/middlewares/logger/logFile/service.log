@@ -1,0 +1,60 @@
+http: Get all visit records where patient id is 200 successful {"metaData":{"ip":"::1","performedBy":"200"},"service":"visits-service","timestamp":"28-03-2021 17:51:52"}
+http: Get all visit records where patient id is 200 successful {"metaData":{"ip":"::1","performedBy":"200"},"service":"visits-service","timestamp":"28-03-2021 17:53:27"}
+http: Get all visit records where patient id is 200 and HCP id is 300 successful {"metaData":{"ip":"::1","performedBy":"300"},"service":"visits-service","timestamp":"28-03-2021 17:56:47"}
+http: Get all visit records where HCP id is 301 successful {"metaData":{"ip":"::1","performedBy":"301"},"service":"visits-service","timestamp":"28-03-2021 17:57:26"}
+http: visit created successful {"metaData":{"ip":"::1"},"service":"visits-service","timestamp":"28-03-2021 18:30:49"}
+http: visit created successful {"metaData":{"ip":"::1"},"service":"visits-service","timestamp":"28-03-2021 18:32:59"}
+http: visit created successful {"metaData":{"ip":"::1"},"service":"visits-service","timestamp":"28-03-2021 18:33:46"}
+http: visit created successful {"metaData":{"ip":"::1"},"service":"visits-service","timestamp":"28-03-2021 18:35:34"}
+http: visit created successful {"metaData":{"ip":"::1","performedBy":"305"},"service":"visits-service","timestamp":"28-03-2021 18:37:13"}
+http: visit created successful {"metaData":{"ip":"::1","performedBy":"305"},"service":"visits-service","timestamp":"28-03-2021 18:37:56"}
+http: visit created successful {"metaData":{"ip":"::1"},"service":"visits-service","timestamp":"28-03-2021 18:38:11"}
+http: visit created successful {"metaData":{"ip":"::1"},"service":"visits-service","timestamp":"28-03-2021 18:47:27"}
+http: visit created successful {"metaData":{"ip":"::1","performedBy":"305"},"service":"visits-service","timestamp":"28-03-2021 18:50:31"}
+http: visit created successful {"metaData":{"ip":"::1"},"service":"visits-service","timestamp":"28-03-2021 18:50:38"}
+http: visit created successful {"metaData":{"ip":"::1"},"service":"visits-service","timestamp":"28-03-2021 18:53:48"}
+http: visit created successful {"metaData":{"ip":"::1"},"service":"visits-service","timestamp":"28-03-2021 18:54:14"}
+http: visit created successful {"metaData":{"ip":"::1","performedBy":379},"service":"visits-service","timestamp":"28-03-2021 18:57:35"}
+http: visit created successful {"metaData":{"ip":"::1","performedBy":380},"service":"visits-service","timestamp":"28-03-2021 19:09:08"}
+http: Visit record with id 1 deleted successfully {"metaData":{"ip":"::1","performedBy":"Deleted by system"},"service":"visits-service","timestamp":"28-03-2021 19:10:11"}
+http: visit created successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"998"},"service":"visits-service","timestamp":"01-04-2021 18:24:32"}
+http: Get all visit records where patient id is 210 successful {"metaData":{"ip":"::1","performedBy":"210"},"service":"visits-service","timestamp":"01-04-2021 18:43:05"}
+http: Get all visit records where patient id is 210 successful {"metaData":{"ip":"::1","performedBy":"210"},"service":"visits-service","timestamp":"01-04-2021 19:43:43"}
+http: Get all visit records where patient id is 789 successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"789"},"service":"visits-service","timestamp":"01-04-2021 19:48:32"}
+http: Get all visit records where patient id is 789 successful {"metaData":{"ip":"::1","performedBy":"789"},"service":"visits-service","timestamp":"01-04-2021 19:48:53"}
+http: Get all visit records where patient id is 210 successful {"metaData":{"ip":"::1","performedBy":"210"},"service":"visits-service","timestamp":"01-04-2021 19:49:59"}
+http: visit created successful {"metaData":{"ip":"::1","performedBy":381},"service":"visits-service","timestamp":"01-04-2021 19:50:26"}
+http: Get all visit records where patient id is 210 successful {"metaData":{"ip":"::1","performedBy":"210"},"service":"visits-service","timestamp":"01-04-2021 19:50:39"}
+http: Get all visit records where patient id is 789 successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"789"},"service":"visits-service","timestamp":"01-04-2021 19:50:51"}
+http: Get all visit records where patient id is 210 successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"210"},"service":"visits-service","timestamp":"01-04-2021 19:51:05"}
+http: Get all visit records where patient id is 210 successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"210"},"service":"visits-service","timestamp":"01-04-2021 19:53:24"}
+http: Get all visit records where patient id is 210 successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"210"},"service":"visits-service","timestamp":"01-04-2021 19:54:35"}
+http: Get all visit records where patient id is 997 successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"997"},"service":"visits-service","timestamp":"01-04-2021 20:51:58"}
+http: Get all visit records where patient id is 997 successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"997"},"service":"visits-service","timestamp":"01-04-2021 20:53:07"}
+http: Get all visit records where patient id is 210 successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"210"},"service":"visits-service","timestamp":"01-04-2021 20:55:07"}
+http: Get all visit records where patient id is 210 successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"210"},"service":"visits-service","timestamp":"01-04-2021 20:58:25"}
+http: Get all visit records where patient id is 210 successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"210"},"service":"visits-service","timestamp":"01-04-2021 20:59:40"}
+http: visit created successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"998"},"service":"visits-service","timestamp":"01-04-2021 21:05:12"}
+http: visit created successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"998"},"service":"visits-service","timestamp":"01-04-2021 21:09:26"}
+http: visit created successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"998"},"service":"visits-service","timestamp":"01-04-2021 21:12:50"}
+http: visit created successful {"metaData":{"ip":"::1","performedBy":381},"service":"visits-service","timestamp":"02-04-2021 11:14:25"}
+http: visit created successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"998"},"service":"visits-service","timestamp":"02-04-2021 11:18:45"}
+http: visit created successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"998"},"service":"visits-service","timestamp":"02-04-2021 11:20:04"}
+http: visit created successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"998"},"service":"visits-service","timestamp":"02-04-2021 11:24:25"}
+http: visit created successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"998"},"service":"visits-service","timestamp":"02-04-2021 11:25:30"}
+http: visit created successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"998"},"service":"visits-service","timestamp":"02-04-2021 11:28:18"}
+http: visit created successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"998"},"service":"visits-service","timestamp":"02-04-2021 11:30:32"}
+http: visit created successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"998"},"service":"visits-service","timestamp":"02-04-2021 11:31:02"}
+http: visit created successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"998"},"service":"visits-service","timestamp":"02-04-2021 11:31:24"}
+http: visit created successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"998"},"service":"visits-service","timestamp":"02-04-2021 11:39:13"}
+http: visit created successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"998"},"service":"visits-service","timestamp":"02-04-2021 11:41:42"}
+http: visit created successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"998"},"service":"visits-service","timestamp":"02-04-2021 11:44:48"}
+http: visit created successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"998"},"service":"visits-service","timestamp":"02-04-2021 11:46:11"}
+http: visit created successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"998"},"service":"visits-service","timestamp":"02-04-2021 11:47:17"}
+http: visit created successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"998"},"service":"visits-service","timestamp":"02-04-2021 11:53:36"}
+http: visit created successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"998"},"service":"visits-service","timestamp":"02-04-2021 11:54:29"}
+http: visit created successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"998"},"service":"visits-service","timestamp":"02-04-2021 12:07:20"}
+http: Get all visit records where patient id is 453 successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"453"},"service":"visits-service","timestamp":"02-04-2021 12:14:43"}
+http: Get all visit records where patient id is 453 successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"453"},"service":"visits-service","timestamp":"02-04-2021 12:17:05"}
+http: visit created successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"998"},"service":"visits-service","timestamp":"02-04-2021 12:27:12"}
+http: visit created successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"998"},"service":"visits-service","timestamp":"02-04-2021 12:27:48"}

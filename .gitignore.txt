@@ -1,0 +1,9 @@
+docService/node_modules/
+labUploadedDocService/node_modules/
+medicationService/node_modules/
+pdfGenerationService/node_modules/
+PrescriptionsService/node_modules/
+qrGenerationService/node_modules/
+userUploadedDocService/node_modules/
+visitsService/node_modules/
+visitUploadedDocService/node_modules/

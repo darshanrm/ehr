@@ -1,0 +1,12 @@
+http: PDF generation request is being sent for 1 {"metaData":{"performedBy":201},"service":"Prescriptions_Service","timestamp":"23-04-2021 21:50:45"}
+http: PDF generation request for lab visit id 1 has been submitted to the queue {"metaData":{"performedBy":201},"service":"Prescriptions_Service","timestamp":"23-04-2021 21:50:45"}
+http: PDF of prescription for patient 101 written by healthcare professional 201 received in the message queue {"service":"Prescriptions_Service","timestamp":"23-04-2021 21:50:47"}
+http: POST | storeDocument successful {"metaData":{"performedBy":"Prescription Service"},"service":"Prescriptions_Service","timestamp":"23-04-2021 21:50:51"}
+http: PDF generation request is being sent for 2 {"metaData":{"performedBy":203},"service":"Prescriptions_Service","timestamp":"23-04-2021 22:16:59"}
+http: PDF generation request for lab visit id 2 has been submitted to the queue {"metaData":{"performedBy":203},"service":"Prescriptions_Service","timestamp":"23-04-2021 22:16:59"}
+http: PDF of prescription for patient 103 written by healthcare professional 203 received in the message queue {"service":"Prescriptions_Service","timestamp":"23-04-2021 22:17:00"}
+http: POST | storeDocument successful {"metaData":{"performedBy":"Prescription Service"},"service":"Prescriptions_Service","timestamp":"23-04-2021 22:17:02"}
+http: PDF generation request is being sent for 2 {"metaData":{"performedBy":203},"service":"Prescriptions_Service","timestamp":"24-04-2021 17:10:36"}
+http: PDF generation request for lab visit id 2 has been submitted to the queue {"metaData":{"performedBy":203},"service":"Prescriptions_Service","timestamp":"24-04-2021 17:10:37"}
+http: PDF of medication for patient 103 written by healthcare professional 203 received in the message queue {"service":"Prescriptions_Service","timestamp":"24-04-2021 17:10:40"}
+http: POST | storeDocument successful {"metaData":{"performedBy":"Prescription Service"},"service":"Prescriptions_Service","timestamp":"24-04-2021 17:10:44"}

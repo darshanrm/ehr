@@ -1,0 +1,125 @@
+http: Received Post request for document by user {"service":"visit-uploaded-docs-service","timestamp":"31-01-2021 01:08:52"}
+http: POST | storeDocument successful {"metaData":{"ip":"::1","data":"Jellyfish.jpg"},"service":"visit-uploaded-docs-service","timestamp":"31-01-2021 01:08:59"}
+http: Received Post request for document by user {"service":"visit-uploaded-docs-service","timestamp":"31-01-2021 01:21:19"}
+http: POST | storeDocument successful {"metaData":{"ip":"::1","data":"Jellyfish.jpg"},"service":"visit-uploaded-docs-service","timestamp":"31-01-2021 01:21:23"}
+http: Received Post request for document by user {"service":"visit-uploaded-docs-service","timestamp":"31-01-2021 01:23:59"}
+http: POST | storeDocument successful {"metaData":{"ip":"::1","data":"Penguins.jpg"},"service":"visit-uploaded-docs-service","timestamp":"31-01-2021 01:24:03"}
+http: Received Post request for document by user {"service":"visit-uploaded-docs-service","timestamp":"31-01-2021 01:28:53"}
+http: POST | storeDocument successful {"metaData":{"ip":"::1","data":"Tulips.jpg"},"service":"visit-uploaded-docs-service","timestamp":"31-01-2021 01:28:57"}
+http: Get request for document by user1 {"service":"visit-uploaded-docs-service","timestamp":"31-01-2021 01:32:10"}
+http: Received Post request for document by user {"service":"visit-uploaded-docs-service","timestamp":"31-01-2021 01:32:22"}
+http: POST | storeDocument successful {"metaData":{"ip":"::1","data":"Tulips.jpg"},"service":"visit-uploaded-docs-service","timestamp":"31-01-2021 01:32:26"}
+http: Get request for document by user1 {"service":"visit-uploaded-docs-service","timestamp":"31-01-2021 01:33:17"}
+http: Get request for document by user1 {"service":"visit-uploaded-docs-service","timestamp":"31-01-2021 01:46:13"}
+http: Get all visit documents where patient id is 11 and hcp id is 22 by hcp person22 {"service":"visit-uploaded-docs-service","timestamp":"31-01-2021 01:55:02"}
+http: Get all visit documents where patient id is 11 and hcp id is 22 by hcp person 22 successful {"service":"visit-uploaded-docs-service","timestamp":"01-02-2021 12:06:11"}
+http: Get all visit documents by hcp person 22 successful {"service":"visit-uploaded-docs-service","timestamp":"01-02-2021 12:08:08"}
+http: Get all visit documents by hcp person 22 successful {"service":"visit-uploaded-docs-service","timestamp":"01-02-2021 12:24:58"}
+http: Get all visit documents by user 11 successful {"service":"visit-uploaded-docs-service","timestamp":"01-02-2021 12:25:48"}
+http: Delete request for document id 1 by hcp person 22 success {"metaData":{"ip":"::1","performedBy":"22"},"service":"visit-uploaded-docs-service","timestamp":"01-02-2021 13:36:24"}
+http: Delete request for document id 1 by hcp person 22 success {"metaData":{"ip":"::1","performedBy":"22"},"service":"visit-uploaded-docs-service","timestamp":"01-02-2021 13:41:36"}
+http: Delete request for document id 1 by hcp person 22 success {"metaData":{"ip":"::1","performedBy":"22"},"service":"visit-uploaded-docs-service","timestamp":"01-02-2021 13:42:30"}
+http: Received Post request for document by user {"service":"visit-uploaded-docs-service","timestamp":"06-02-2021 23:15:40"}
+http: POST | storeDocument successful {"metaData":{"ip":"::1","data":"Tulips.jpg","performedBy":"22"},"service":"visit-uploaded-docs-service","timestamp":"06-02-2021 23:15:41"}
+http: Get all visit documents by hcp person 22 successful {"metaData":{"ip":"::1"},"service":"visit-uploaded-docs-service","timestamp":"06-02-2021 23:16:01"}
+http: Get all visit documents by user 11 successful {"metaData":{"ip":"::ffff:127.0.0.1"},"service":"visit-uploaded-docs-service","timestamp":"06-02-2021 23:26:34"}
+http: Get all visit documents by user 11 successful {"metaData":{"ip":"::ffff:127.0.0.1"},"service":"visit-uploaded-docs-service","timestamp":"06-02-2021 23:29:54"}
+http: Get all visit documents by user 11 successful {"metaData":{"ip":"::ffff:127.0.0.1"},"service":"visit-uploaded-docs-service","timestamp":"06-02-2021 23:30:22"}
+http: Get all visit documents by user 11 successful {"metaData":{"ip":"::ffff:127.0.0.1"},"service":"visit-uploaded-docs-service","timestamp":"06-02-2021 23:34:11"}
+http: Get all visit documents by user 11 successful {"metaData":{"ip":"::ffff:127.0.0.1"},"service":"visit-uploaded-docs-service","timestamp":"06-02-2021 23:34:55"}
+http: Get all visit documents by user 11 successful {"metaData":{"ip":"::ffff:127.0.0.1"},"service":"visit-uploaded-docs-service","timestamp":"06-02-2021 23:36:45"}
+http: Get all visit documents by user 11 successful {"metaData":{"ip":"::ffff:127.0.0.1"},"service":"visit-uploaded-docs-service","timestamp":"06-02-2021 23:37:43"}
+http: Get all visit documents by user 11 successful {"metaData":{"ip":"::ffff:127.0.0.1"},"service":"visit-uploaded-docs-service","timestamp":"06-02-2021 23:38:28"}
+http: Get all visit documents by user 11 successful {"metaData":{"ip":"::ffff:127.0.0.1"},"service":"visit-uploaded-docs-service","timestamp":"06-02-2021 23:41:55"}
+http: Get all visit documents by user 11 successful {"metaData":{"ip":"::ffff:127.0.0.1"},"service":"visit-uploaded-docs-service","timestamp":"06-02-2021 23:43:32"}
+http: Get all visit documents by user 11 successful {"metaData":{"ip":"::ffff:127.0.0.1"},"service":"visit-uploaded-docs-service","timestamp":"06-02-2021 23:44:06"}
+http: Get all visit documents by user 11 successful {"metaData":{"ip":"::ffff:127.0.0.1"},"service":"visit-uploaded-docs-service","timestamp":"06-02-2021 23:45:11"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 18:43:07"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:09:28"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:10:47"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:11:03"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:11:56"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:12:33"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:13:50"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:18:51"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:20:32"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:21:11"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:21:54"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:23:14"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:26:27"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:26:46"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:28:57"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:35:19"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:36:38"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:36:38"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:36:49"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:36:49"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:43:59"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:43:59"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:44:20"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:44:20"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:46:27"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:46:27"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:47:19"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:47:19"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:47:30"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:47:31"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:51:50"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:51:50"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:55:18"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:55:19"}
+http: POST | storeDocument successful {"metaData":{"data":"Hydrangeas.jpg","performedBy":"docService"},"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:55:19"}
+http: POST | storeDocument successful {"metaData":{"data":"Hydrangeas.jpg","performedBy":"docService"},"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:55:19"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:55:41"}
+http: Visit report for patient 3 written by healthcare professional 123 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:55:41"}
+http: POST | storeDocument successful {"metaData":{"data":"Hydrangeas.jpg","performedBy":"docService"},"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:55:42"}
+http: POST | storeDocument successful {"metaData":{"data":"Hydrangeas.jpg","performedBy":"docService"},"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:55:42"}
+http: Visit report for patient 30 written by healthcare professional 100 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:57:16"}
+http: POST | storeDocument successful {"metaData":{"data":"Penguins.jpg","performedBy":"docService"},"service":"visit-uploaded-docs-service","timestamp":"08-02-2021 19:57:17"}
+http: Visit report for patient 789 written by healthcare professional 257 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"22-03-2021 18:45:27"}
+http: Visit report for patient 789 written by healthcare professional 257 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"22-03-2021 18:50:12"}
+http: Visit report for patient 789 written by healthcare professional 257 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"22-03-2021 18:52:44"}
+http: Visit report for patient 789 written by healthcare professional 257 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"22-03-2021 19:18:13"}
+http: Visit report for patient 789 written by healthcare professional 257 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"22-03-2021 19:19:09"}
+http: Visit report for patient 789 written by healthcare professional 257 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"22-03-2021 19:27:26"}
+http: Visit report for patient 789 written by healthcare professional 257 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"22-03-2021 19:30:25"}
+http: Visit report for patient 789 written by healthcare professional 257 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"22-03-2021 19:31:39"}
+http: Visit report for patient 789 written by healthcare professional 257 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"22-03-2021 19:32:22"}
+http: Visit report for patient 789 written by healthcare professional 257 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"22-03-2021 19:32:22"}
+http: POST | storeDocument successful {"metaData":{"performedBy":"Visit Uploaded Doc Service"},"service":"visit-uploaded-docs-service","timestamp":"22-03-2021 19:32:23"}
+http: POST | storeDocument successful {"metaData":{"performedBy":"Visit Uploaded Doc Service"},"service":"visit-uploaded-docs-service","timestamp":"22-03-2021 19:32:23"}
+http: Get all visit documents by user 789 successful {"metaData":{"ip":"::ffff:127.0.0.1"},"service":"visit-uploaded-docs-service","timestamp":"22-03-2021 19:38:19"}
+http: Visit report for patient 790 written by healthcare professional 257 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"22-03-2021 23:57:13"}
+http: Visit report for patient 790 written by healthcare professional 257 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"23-03-2021 00:06:21"}
+http: Get all visit documents by user 790 successful {"metaData":{"ip":"::ffff:127.0.0.1"},"service":"visit-uploaded-docs-service","timestamp":"23-03-2021 00:07:52"}
+http: Visit report for patient 997 written by healthcare professional 998 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"23-03-2021 00:26:11"}
+http: Visit report for patient 997 written by healthcare professional 998 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"23-03-2021 00:26:59"}
+http: Visit report for patient 997 written by healthcare professional 998 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"23-03-2021 00:27:28"}
+http: Visit report for patient 997 written by healthcare professional 998 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"23-03-2021 00:29:28"}
+http: Visit report for patient 997 written by healthcare professional 998 received in the message queue {"service":"visit-uploaded-docs-service","timestamp":"23-03-2021 00:35:41"}
+http: Get all visit documents by user 997 successful {"metaData":{"ip":"::ffff:127.0.0.1"},"service":"visit-uploaded-docs-service","timestamp":"23-03-2021 00:36:22"}
+http: Received Post request for document by user {"service":"user-uploaded-docs-service","timestamp":"04-04-2021 16:03:24"}
+http: Received Post request for document by user {"service":"user-uploaded-docs-service","timestamp":"04-04-2021 16:06:07"}
+http: Received Post request for document by user {"service":"user-uploaded-docs-service","timestamp":"04-04-2021 16:06:50"}
+http: Received Post request for document by user {"service":"user-uploaded-docs-service","timestamp":"04-04-2021 16:07:57"}
+http: Received Post request for document by user {"service":"user-uploaded-docs-service","timestamp":"04-04-2021 16:12:56"}
+http: Received Post request for document by user {"service":"user-uploaded-docs-service","timestamp":"04-04-2021 16:15:18"}
+http: Received Post request for document by user {"service":"user-uploaded-docs-service","timestamp":"04-04-2021 16:23:40"}
+http: Received Post request for document by user {"service":"user-uploaded-docs-service","timestamp":"04-04-2021 16:23:58"}
+http: Received Post request for document by user {"service":"user-uploaded-docs-service","timestamp":"04-04-2021 16:25:36"}
+http: Received Post request for document by user {"service":"user-uploaded-docs-service","timestamp":"04-04-2021 16:28:19"}
+http: Received Post request for document by user {"service":"user-uploaded-docs-service","timestamp":"04-04-2021 16:29:22"}
+http: Received Post request for document by user {"service":"user-uploaded-docs-service","timestamp":"04-04-2021 16:33:01"}
+http: POST | storeDocument successful {"metaData":{"ip":"::1","data":"sample2","performedBy":"102"},"service":"user-uploaded-docs-service","timestamp":"04-04-2021 16:33:03"}
+http: Received Post request for document by user {"service":"user-uploaded-docs-service","timestamp":"04-04-2021 16:35:47"}
+http: Received Post request for document by user {"service":"user-uploaded-docs-service","timestamp":"04-04-2021 16:38:50"}
+http: POST | storeDocument successful {"metaData":{"ip":"::1","data":"sample2","performedBy":"102"},"service":"user-uploaded-docs-service","timestamp":"04-04-2021 16:38:54"}
+http: Received Post request for document by user {"service":"user-uploaded-docs-service","timestamp":"04-04-2021 16:41:27"}
+http: Received Post request for document by user {"service":"user-uploaded-docs-service","timestamp":"04-04-2021 16:43:57"}
+http: Received Post request for document by user {"service":"user-uploaded-docs-service","timestamp":"04-04-2021 16:44:40"}
+http: POST | storeDocument successful {"metaData":{"ip":"::1","data":"sample2","performedBy":"102"},"service":"user-uploaded-docs-service","timestamp":"04-04-2021 16:44:44"}
+http: Get all visit documents by user 102 successful {"metaData":{"ip":"::1"},"service":"user-uploaded-docs-service","timestamp":"04-04-2021 16:46:18"}
+http: Received Post request for Lab Document storage from HCP with id undefined {"service":"user-uploaded-docs-service","timestamp":"04-04-2021 22:18:30"}
+http: Received Post request for Lab Document storage from HCP with id 205 {"service":"user-uploaded-docs-service","timestamp":"04-04-2021 22:28:32"}
+http: Received Post request for Lab Document storage from HCP with id 206 {"service":"lab-uploaded-docs-service","timestamp":"05-04-2021 23:15:24"}
+http: POST | Document stored successful {"metaData":{"ip":"::1","performedBy":"206"},"service":"lab-uploaded-docs-service","timestamp":"05-04-2021 23:15:26"}

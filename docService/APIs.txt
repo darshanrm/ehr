@@ -1,0 +1,14 @@
+Post Data to Generate Report == docService -> pdfGenerationService
+API==> http://localhost:8082/Documents/post/postDocument
+Data==> {
+        patientName,
+        hcpName,
+        reason,
+        summary,
+        medicines,
+        clinicName,
+        visitId,
+        userId,
+        hcp_id,
+        document_name
+        }
