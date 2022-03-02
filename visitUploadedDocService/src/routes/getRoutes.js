@@ -5,6 +5,7 @@ const getController = require("../controllers/getRoutes.controller");
 //docs by visit Id
 router.route("/getVisitDocuments").get(getController.getVisitDocuments);
 
-//TODO: docs by patient Id("/byPatientId")
+//MODIFIED: docs by patient Id("/byPatientId")
+router.route("/byPatientId").get(getController.byPatientId);
 
 module.exports = router;

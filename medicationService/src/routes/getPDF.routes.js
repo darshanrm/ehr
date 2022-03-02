@@ -4,6 +4,7 @@ const { getPDFController } = require("../controllers/index");
 
 router.route("/byVisitId").get(getPDFController.getByVisitId);
 
-//TODO: get docs by patient id ("/byPatientId")
+//MODIFIED: get docs by patient id ("/byPatientId")
+router.route("/byPatientId").get(getPDFController.getByPatientId);
 
 module.exports = router;

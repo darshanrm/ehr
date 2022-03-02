@@ -9,6 +9,7 @@ router
   .route("/byPatientIdAndHcpId")
   .get(getController.getDocumentsByPatientIdAndHcpId);
 
-//TODO: get docs by visit id ("/byVisitId");
+//MODIFIED: get docs by visit id ("/byVisitId");
+router.route("/byVisitId").get(getController.getDocumentsByVisitId);
 
 module.exports = router;

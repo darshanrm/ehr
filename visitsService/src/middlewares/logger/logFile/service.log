@@ -58,3 +58,4 @@ http: Get all visit records where patient id is 453 successful {"metaData":{"ip"
 http: Get all visit records where patient id is 453 successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"453"},"service":"visits-service","timestamp":"02-04-2021 12:17:05"}
 http: visit created successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"998"},"service":"visits-service","timestamp":"02-04-2021 12:27:12"}
 http: visit created successful {"metaData":{"ip":"::ffff:127.0.0.1","performedBy":"998"},"service":"visits-service","timestamp":"02-04-2021 12:27:48"}
+http: Get all visit records where HCP id is undefined successful {"metaData":{"ip":"::1"},"service":"visits-service","timestamp":"03-05-2021 17:20:40"}

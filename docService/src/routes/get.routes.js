@@ -2,9 +2,6 @@ const express = require("express");
 const router = express.Router();
 const { getController } = require("../controllers/index");
 
-//TODO: Aggregate all services
-//TODO: get documents from prescription, medication, lab, visit-uploaded docs, hcp-service, visits service
-
 //docs matching patient Id
 router.route("/getPatientDocuments").get(getController.getPatientDocuments);
 
@@ -14,8 +11,10 @@ router.route("/getVisitDocuments").get(getController.getVisitDocuments);
 //docs matching hcp id
 router.route("/getAuthoredDocuments").get(getController.getAuthoredDocuments);
 
-//TODO: docs by visit Id
+//MODIFIED: docs by visit Id
+router.route("/getByVisitId").get(getController.getByVisitId);
 
-//TODO: lab details (byPrescriptionId)
+//MODIFIED: lab details (byPrescriptionId)
+router.route("/labDetails").get(getController.getLabDetails);
 
 module.exports = router;

@@ -98,8 +98,23 @@ const getDocumentsByPatientIdAndHcpId = async (req, res) => {
     });
 };
 
+const getDocumentsByVisitId = (req, res) => {
+  lab_uploaded_docs
+    .findAll({
+      where: {
+        visit_id: req.query.visitId,
+      },
+    })
+    .then((document) => {
+      res.send(document);
+    }).catch = (e) => {
+    res.send("error");
+  };
+};
+
 module.exports = {
   getDocumentsByPatientId,
   getDocumentsByHcpId,
   getDocumentsByPatientIdAndHcpId,
+  getDocumentsByVisitId,
 };

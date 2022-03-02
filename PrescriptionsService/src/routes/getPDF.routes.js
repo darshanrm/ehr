@@ -4,7 +4,8 @@ const { getPDFController } = require("../controllers/index");
 
 router.route("/byVisitId").get(getPDFController.getByVisitId);
 
-//TODO
+//MODIFIED
 //byPatientId
+router.route("/byPatientId").get(getPDFController.getByPatientId);
 
 module.exports = router;

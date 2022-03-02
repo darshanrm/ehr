@@ -28,11 +28,10 @@ const createNewPrescription = (req, res) => {
           })
           .then(counter++);
       });
-      requestPDF(req.body);
       let completionStatus = () => {
         if (counter == size) {
           clearInterval(timer);
-          res.send("Medicine record saved successfully");
+          res.send(prescription);
         }
       };
       let timer = setInterval(completionStatus, 10);
